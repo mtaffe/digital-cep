@@ -1,0 +1,22 @@
+{
+    "name": "matheus.ferreira/digital-cep",
+    "description": "Busca de cep online",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mtaffe",
+            "email": "matheustaffe@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "matheusferreira\\DigitalCep\\": "src/"
+        }
+    }
+}
